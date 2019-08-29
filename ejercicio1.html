@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript</title>
+    <link rel="preload" href="https://lh4.googleusercontent.com/proxy/awEOUjGN3lC-6rrpwd0nUPXJlHF294YucBd_YTdvN8mzMVOsuI02qoUJnPh5x-iPZPzDXCUpnZ2xfzBoM-EgNtiGx5F6ly_hj8C4Dw=w3840-h2160-p-k-no-nd-mv" as="image">
+</head>
+
+
+    
+<body>
+<h1>ACTIVIDAD 1</h1>
+
+<script>
+ht = parseFloat(prompt("digite las horas trabajadas"));
+vh = parseFloat(prompt("digite le valor de la hora"));
+pcomision =parseFloat(prompt("digite el porcentaje de comision"));
+ventas = parseFloat(prompt("digite el monto total de las ventas"));
+
+
+comision = ventas * (pcomision/100);
+sueldoInicial = ht * vh;
+sueldoNeto = sueldoInicial + comision;
+
+
+document.write("<p><b>El porcentaje de comision es: "+ pcomision+"</b></p>");
+document.write("<p><b>El sueldo inicial es: $" + sueldoInicial+"</b></p>");
+document.write("<p><b>El sueldo neto es de: $ "+ sueldoNeto+"</b></p>");
+
+
+
+
+</script>
+    
+</body>
+</html>
