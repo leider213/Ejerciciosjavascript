@@ -1,0 +1,55 @@
+# Ejerciciosjavascript<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CICLO</h1>
+    <script>
+        let i = 1;
+        let suma = 0;
+        let contadorpositivos = 0;
+        let contadornegativos = 0;
+        while (i <= 5) {
+            num = parseInt(prompt("digite un numero"));
+            suma = suma + num;
+            document.write("<p>numero ingresado: " + num + "</p>")
+
+            if (num > 0) {
+                contadorpositivos++;
+            } else if (num < 0) {
+                contadornegativos++;
+
+            }
+
+
+
+
+            i++;
+
+        }
+
+
+        document.write("<hr>")
+        document.write("<p> el promedio es: " + (suma / 5) + "</p>")
+        document.write("<p> cantidad positivos: " + contadorpositivos + "</p>")
+        document.write("<p> cantidad negativos: " + contadornegativos + "</p>")
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
